@@ -20,3 +20,15 @@ Por padrão eles não quebram linhas, isso faz com que os flex itens sejam compa
 É um atalho para as propriedades flex-direction e flex-wrap
 Porém seu uso não é tão comum, visto que, quando mudamos o flex-direction para column, mantemos o padrão do flex-wrap que é nowrap.
 
+**Justify Content**
+
+Essa propriedade vai se encarregar de alinhar os itens dentro do container de acordo com a direção pretendida e tratar da distribuição de espaçamento entre eles
+
+Obs: Não funciona caso os itens filhos estejam ocupando 100% de todo o container.
+
+variações:
+- flex-start: inicio do container
+- flex-end: final do container
+- center: ao centro do container
+- space-between: cria um espaçamento igual entre os elementos
+- space-around: os espaçamentos do meio são duas vezes maiores que o inicial e o final
