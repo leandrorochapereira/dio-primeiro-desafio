@@ -9,4 +9,4 @@ Todos os conteúdos apresentados e praticados no spread fullstack developer boot
 - Banco de Dados
 - NodeJS
 
-Na posta /projeto-dio estão todos os conteúdos HTML / CSS3 
+Na pasta /projeto-dio estão todos os conteúdos HTML / CSS3 
