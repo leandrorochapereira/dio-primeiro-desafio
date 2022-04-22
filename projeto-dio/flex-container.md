@@ -46,3 +46,18 @@ Permite o alinhamento central no eixo vertical
 - flex-end: alinhamento dos itens no final
 - baseline: alinhamento de acordo com a linha base da tipografia dos itens
 
+**Align-content**
+
+É a propriedade responsável pelo tratamento do eixo vertical das linhas do container
+
+>> Precisamos que:
+- O container utilize quebra de linhas
+- A altura do container tem que ser maior que a soma das linhas dos itens
+
+>>Tipos de alinhamento:
+- center: alinhamento dos itens ao centro
+- stretch: é o padrão e os flex itens crescem igualmente
+- flex-start: alinhamento dos itens no início
+- flex-end: alinhamento dos itens no final
+- space-between: cria um espaçamento igual entre os elementos
+- space-around: os espaçamentos do meio são duas vezes maiores que o inicio e final
