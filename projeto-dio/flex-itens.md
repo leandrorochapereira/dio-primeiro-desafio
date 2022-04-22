@@ -16,3 +16,7 @@ Ela não faz a contenção ou expansão do item
 - px, %, em: são valores exatos previamente definidos 
 - 0: terá relação com a definição do flex-grow
 
+**Flex-shrink**
+
+É a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item
+
