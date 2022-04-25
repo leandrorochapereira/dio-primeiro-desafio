@@ -24,3 +24,14 @@ Ela não faz a contenção ou expansão do item
 
 - grow, shrink e basis. Podemos colocar como flex: 1 0 auto (grow, shrink, basis)
 
+**Align-self**
+
+É a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
+
+- auto: valor padrão, vai respeitar a definição de align-items do container
+- flex-start: o inicio do container
+- flex-end: final do container
+- center: relativo ao centro de acordo com o eixo
+- stretch: ocupa todos os espaços relativos
+- baseline: utiliza a linha base da tipografia
+  

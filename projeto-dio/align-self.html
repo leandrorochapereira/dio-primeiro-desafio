@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Align-self</title>
+
+    <style>
+        .flex-container{
+            border: 1px solid black;
+            display: flex;
+            max-width: 300px;
+            margin-bottom: 10px;
+        }
+
+        .align-container{
+            align-items: center;
+        }
+
+        .item{
+            background-color: blueviolet;
+            color: #000;
+            text-align: center;
+            font-size: 24px;
+            margin: 5px;
+        }
+
+        .center{
+            align-self: center;
+        }
+
+        .start{
+            align-self: flex-start;
+        }
+
+        .end{
+            align-self: flex-end;
+        }
+
+        .baseline{
+            align-self: baseline;
+        }
+
+        .stretch{
+            align-self: baseline;
+        }
+
+        .auto{
+            align-self: auto;
+        }
+    </style>
+</head>
+<body>
+    <section class="flex-container align-container">
+        <div class="item auto">ZZZ</div>
+        <div class="item auto">AAAA</div>
+        <div class="item auto">DD</div>
+        <div class="item auto">FFF</div>
+    </section>
+
+    <p>stretch</p>
+    <section class="flex-container">
+        <div class="item stretch">ZZZ</div>
+        <div class="item auto">AAAA</div>
+        <div class="item auto">DD</div>
+        <div class="item stretch">FFF</div>
+    </section>
+
+    <p>stretch</p>
+    <section class="flex-container">
+        <div class="item start">ZZZzzzzzzzz</div>
+        <div class="item auto">AAAAaaaaaaaaaaa</div>
+        <div class="item auto">DDdddddddddddddddddd</div>
+        <div class="item stretch">FFF</div>
+    </section>
+</body>
+</html>
