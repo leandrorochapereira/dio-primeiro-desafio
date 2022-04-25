@@ -20,3 +20,7 @@ Ela não faz a contenção ou expansão do item
 
 É a propriedade que estabelece a capacidade de redução ou compressão do tamanho de um item
 
+**Flex**
+
+- grow, shrink e basis. Podemos colocar como flex: 1 0 auto (grow, shrink, basis)
+
