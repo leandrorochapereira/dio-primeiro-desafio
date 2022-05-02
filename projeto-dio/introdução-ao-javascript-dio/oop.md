@@ -36,3 +36,9 @@ Objetos podem herdade a mesma classe pai, mas se compartem de forma diferente qu
 Todos os objetos JavaScript herdam propriedades e métodos de um prototype.
 O objeto Object.prototype está no topo desta cadeia
 
+>Classes
+
+Syntatic sugar: uma sintaxe feita para facilitar a escrita
+
+JavaScript não possui classes nativamente. Todas as classes são objetos e a herança se dá por protótipos.
+
