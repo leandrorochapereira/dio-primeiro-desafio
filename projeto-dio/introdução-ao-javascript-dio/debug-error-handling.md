@@ -61,9 +61,28 @@ function tryCatchExemplo(string){
         throw e;
     }
     finally{
-        console.log('A string eviada foi: ' + string);
+        console.log('A string enviada foi: ' + string);
     }
 }
 
 é um bloco que vai ser utilizado de qualquer maneira
+
+**Objeto Error*
+
+new Error(message, fileName, lineNumber) //parâmetros opcionais
+
+const MeuErro = new Error('Mensagem inválida');
+
+throw MeuErro;
+
+retorna
+//Uncaught Error: Mensagem Inválida at 1:17
+
+Erro também pode ter um nome
+
+const MeuErro = new Error('Mensagem inválida');
+MeuErro.name = 'InvalidMessage';
+
+retorna
+//Uncaught InvalidMessage: Mensagem inválida at...
 
