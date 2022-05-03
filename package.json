@@ -1,0 +1,11 @@
+{
+
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\"&& exi 1"
+  },
+
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
